@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Server port="8005" shutdown="SHUTDOWN">
+    <Listener
+            className="com.angkorteam.internet.ApplicationListener"
+            mailSenderHost="send.one.com"
+            mailSenderPort="465"
+            mailSenderProtocol="smtp"
+            mailSenderSsl="true"
+            mailSenderUsername=""
+            mailSenderPassword=""
+            mailSenderFrom=""
+            mailSenderName="No-Reply"
+            mailTo=""
+            pingUrl="https://www.google.com"
+            interval="1"
+            alertInterval="60"
+            />
+</Server>
